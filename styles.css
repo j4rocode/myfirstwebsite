@@ -1,0 +1,220 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    padding: 0;
+}
+#logo {
+    height: 50px;
+    width: auto;
+    display: block;
+   margin: 0 auto;
+}
+header {
+    max-width:1200px;
+    margin: 0 auto;
+}
+.nav {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    height: auto;
+    border-bottom: 1px solid gray;
+}
+li {
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+li img {
+    width: 16px;
+    height: auto;
+    
+}
+a {
+    text-decoration: none;
+}
+.main_banner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(https://assets.website-files.com/5d5d2c4d06643ed42980bf21/5d64d98d9883e8782633cfb8_hero01.png), url(https://assets.website-files.com/5d5d2c4d06643ed42980bf21/5d602654c701de797c2cfb6d_Asset%201.svg), linear-gradient(180deg,#fed1de,#fed1de);
+    background-position: 10% 80%,330px -300px,0 0;
+    background-repeat: no-repeat, space, repeat;
+    background-attachment: scroll, fixed, scroll!important; 
+    background-size: 440px,1020px,auto;
+    position: relative;
+    min-height: 530px;
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-end;
+   align-items: flex-end;
+}
+.main_banner_title {
+   
+    max-width: 50%;
+    padding: 50px;
+  
+}
+h1 {
+    font-weight: 300;
+    font-size: 50px;
+    background-image:linear-gradient(180deg,#fed1de,#fed1de) ;
+}
+button {
+    border: 0px;
+    padding: 15px 20px;
+    font-size: 20px;
+
+}
+footer {
+    margin-top: 300px;
+    clear: both;
+    height: 100px;
+    background: #CD5C5C;
+
+}
+
+.product_img {
+    width: 100%;
+    height: 200px;
+   background: white;
+   
+}
+.a {
+    
+    background-image: url(https://www.partybox.pl/zasoby/images/middle/balon-chromowany-olbrzym-zloty-60cm_66443.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.a:hover {
+    
+    background-image: url(https://www.partybox.pl/zasoby/grafiki/middle/okragly-balon-chromowany-olbrzym-zloty-60cm_66443_1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.b:hover {
+    background-image: url(https://www.partybox.pl/zasoby/grafiki/middle/balony-pastelowe-biale-pure-white-30cm-10szt_50289_1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.b {
+    background-image: url(https://www.partybox.pl/zasoby/images/middle/balony_pastelowe_biale_30cm_10szt_50289.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.c {
+    background-image: url(https://www.partybox.pl/zasoby/images/middle/srebrne-balony-chrom-lateksowe-30-cm-50szt_67096.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.c:hover {
+background-image: url(https://www.partybox.pl/zasoby/grafiki/middle/srebrne-balony-chrom-lateksowe-30-cm-50szt_67096_2.jpg);
+background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card {
+    width: 300px;
+    border: 5px solid #fed1de;
+    margin: 50px auto;
+    background: #fed1de;
+    -webkit-box-shadow: 28px 8px 70px 0px rgba(66, 68, 90, 0.43);
+    -moz-box-shadow: 28px 8px 70px 0px rgba(66, 68, 90, 0.43);
+    box-shadow: 28px 8px 70px 0px rgba(66, 68, 90, 0.43);
+}
+
+
+.our_products {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.product_name {
+    text-align: center;
+    font-weight: 300;
+    padding: 10px ;
+}
+.price {
+float: right;
+font-weight: 300;
+padding: 10px ;
+}
+.card:hover {
+    -webkit-box-shadow: 8px 8px 42px 3px rgba(254, 209, 222, 1);
+    -moz-box-shadow: 8px 8px 42px 3px rgba(254, 209, 222, 1);
+    box-shadow: 8px 8px 42px 3px rgba(254, 209, 222, 1);
+}
+.our_team {
+    margin: 200px auto;
+    width: 100%;
+    background: #CD5C5C;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h6 {
+   
+    padding-top:350px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.team_card img {
+    width: 100%;
+}
+.profile {
+    width: 300px;
+    height: 300px;
+    background-image: url("https://fotoblysk.com/wp-content/uploads/2016/07/xRing-light-portret-1.jpg.pagespeed.ic.PuM47N375f.jpg")!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.our_team p {
+    font-size: 60px;
+
+}
+span{
+    font-weight: bold;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+footer p {
+    
+    color: white;
+    
+    padding-top: 60px;
+    padding-right: 10px;
+    
+}
+
+@media only screen and (max-width: 768px)
+{
+    
+    #logo {
+        
+        height: 100px;
+        width: auto;
+    }
+}
